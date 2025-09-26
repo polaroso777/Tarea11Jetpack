@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <!-- Pantalla inicial -->
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.tarea11jetpack.MenuFragment"
+        android:label="Menú principal">
+        <!-- Acciones hacia los perfiles -->
+        <action
+            android:id="@+id/action_menu_to_perfil1"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_menu_to_perfil2"
+            app:destination="@id/perfil2Fragment" />
+    </fragment>
+
+    <!-- Perfil 1 -->
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.tarea11jetpack.PerfilFragment"
+        android:label="Perfil 1" />
+
+    <!-- Perfil 2 -->
+    <fragment
+        android:id="@+id/perfil2Fragment"
+        android:name="com.example.tarea11jetpack.Perfil2Fragment"
+        android:label="Perfil 2" />
+
+</navigation>
