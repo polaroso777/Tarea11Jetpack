@@ -49,10 +49,10 @@
         android:id="@+id/btnIntegrante2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Tilín"
+        android:text="Aldo Uriel Reyna Alvarez"
         app:layout_constraintTop_toBottomOf="@id/btnIntegrante1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="32dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
